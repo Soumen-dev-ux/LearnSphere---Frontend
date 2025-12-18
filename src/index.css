@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+/* Custom base styles (kept minimal since Tailwind provides most utilities) */
+:root {
+  --app-font: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--app-font);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Small utility tweaks */
+a {
+  @apply font-medium text-indigo-600 hover:text-indigo-500;
+}
+
+button {
+  @apply rounded-md border-0 bg-indigo-600 text-white px-4 py-2 text-sm font-medium hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-300;
+}
+
+/* Responsive container helper */
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
