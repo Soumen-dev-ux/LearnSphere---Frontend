@@ -2,10 +2,7 @@ import { useEffect, useState } from "react";
 import api from "../services/api";
 import { Link } from "react-router-dom";
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
-});
+
 
 
 const Courses = () => {
