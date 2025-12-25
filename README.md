@@ -43,11 +43,13 @@ This project demonstrates authentication, role-based access control, protected r
 
 ## ⚙️ Environment Variables
 ## Backend (.env)
-MONGO_URI=mongodb+srv://soumenpore_db_user:Soumen%402006@cluster0.shjrbsv.mongodb.net/LearnSphere?retryWrites=true&w=majority
+MONGO_URI= 
+
 JWT_SECRET=learnsphere_secret_12345
 
 ## Frontend (Vercel Environment Variables)
 VITE_API_BASE_URL=https://https://learnsphere-mmou.onrender.com//api
+	
 	⚠️ Note: All frontend environment variables must start with VITE_
 
 ## 🚀 Run Project Locally
