@@ -1,31 +1,82 @@
-# React + Vite
+## 📘 LearnSphere – Online Learning Platform
+## 🌐 Live Demo
+	• Frontend (Vercel): https://learnsphere-topaz.vercel.app/
+	• Backend (Render): https://learnsphere-mmou.onrender.com/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
+LearnSphere is a full-stack MERN-based online learning platform where users can browse courses, view course details, enroll in courses, and track their learning progress. The platform also includes an admin panel that allows administrators to create and manage courses.
+This project demonstrates authentication, role-based access control, protected routes, REST APIs, and full deployment using modern tools.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+## Frontend
+	• React (Vite)
+	• React Router DOM
+	• Axios
+	• Tailwind CSS
+## Backend
+	• Node.js
+	• Express.js
+	• MongoDB Atlas
+	• JWT Authentication
+## Deployment
+	• Frontend: Vercel
+	• Backend: Render
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+## 👤 User Features
+	• User Signup & Login
+	• Browse all courses
+	• View course details
+	• Enroll in courses
+	• View enrolled courses in dashboard
+## 🛡️ Admin Features
+	• Secure admin authentication
+	• Role-based access control
+	• Create new courses
+	• Admin-only protected routes
 
-## React Compiler
+## 🔐 Authentication & Authorization
+	• JWT-based authentication
+	• Tokens stored in localStorage
+	• Protected routes using middleware
+	• Admin access verified via user role inside JWT
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Environment Variables
+## Backend (.env)
+MONGO_URI=mongodb+srv://soumenpore_db_user:Soumen%402006@cluster0.shjrbsv.mongodb.net/LearnSphere?retryWrites=true&w=majority
+JWT_SECRET=learnsphere_secret_12345
 
-## Expanding the ESLint configuration
+## Frontend (Vercel Environment Variables)
+VITE_API_BASE_URL=https://https://learnsphere-mmou.onrender.com//api
+	⚠️ Note: All frontend environment variables must start with VITE_
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Run Project Locally
+## Backend Setup
+cd backend
+npm install
+npm run dev
+## Frontend Setup
+cd frontend
+npm install
+npm run dev
 
----
+Frontend will run on:
+http://localhost:5173
+Backend will run on:
+http://localhost:5000
 
-## Tailwind CSS
 
-This project was updated to use Tailwind CSS for styling.
+## 📚 Learning Outcomes
+	• Hands-on experience with MERN stack
+	• Implemented JWT authentication & authorization
+	• Built REST APIs
+	• Managed role-based access
+	• Deployed full-stack application
 
-To install dependencies and start the dev server:
+## 👨‍💻 Author
+Soumen Pore
 
-1. cd into the `frontend` folder
-2. Run: `npm install`
-3. Run the dev server: `npm run dev`
-
-If Tailwind styles don't show up after installing, ensure `postcss.config.cjs` and `tailwind.config.cjs` exist in the `frontend` folder and `src/index.css` contains the `@tailwind` directives.
-
+## ✅ Project Status
+✔ Completed
+✔ Deployed
+✔ Submission Ready
